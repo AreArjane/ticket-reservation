@@ -34,23 +34,65 @@ This project is ticket reservation form, created with H2-database with CRUD feat
    ```bash
    git clone https://github.com/yourusername/cinema-ticket-system.git](https://github.com/AreArjane/ticket-reservation.git
 
-/cinema-ticket-system
-|-- /src
-|   |-- /main
-|   |   |-- /java
-|   |   |   |-- /com
-|   |   |       |-- /cinema
-|   |   |           |-- /controller
-|   |   |           |-- /service
-|   |   |           |-- /repository
-|   |   |-- /resources
-|   |       |-- /templates
-|   |       |-- /static
-|-- /frontend
-|   |-- /src
-|   |-- /public
-|-- pom.xml
-|-- README.md
+# Cinema Ticket Reservation System
+
+## Overview
+This system allows users to browse, book, and manage cinema tickets through a web interface and RESTful API. It is designed to provide a seamless booking experience while also allowing for backend integration with databases and other systems.
+
+## API Endpoints
+
+### Ticket Information
+####localhost:8080
+- **List All Tickets**
+  - **GET** `/api/billetter/alle`
+  - Retrieves a list of all booked tickets.
+
+- **Get Ticket By ID**
+  - **GET** `/api/billetter/{id}`
+  - Fetches ticket details based on ticket ID.
+
+- **Get Tickets by Surname and First Name**
+  - **GET** `/api/billetter/alle_by_etternavn/{etternavn}/{fornavn}`
+  - Retrieves tickets based on the customer's surname and first name.
+
+### Ticket Management
+- **Add a New Ticket**
+  - **POST** `/api/billetter`
+  - Creates a new ticket entry. Payload should include ticket details.
+
+- **Update an Existing Ticket**
+  - **PUT** `/api/billetter/endre/{id}`
+  - Updates ticket details for the specified ticket ID.
+
+- **Delete Ticket by Surname**
+  - **DELETE** `/api/billetter/delete/{etternavn}`
+  - Deletes all tickets associated with the given surname.
+
+- **Delete All Tickets**
+  - **DELETE** `/api/billetter/delete/alle`
+  - Removes all tickets from the database.
+
+- **Delete Ticket by ID**
+  - **DELETE** `/api/billetter/delete/ByID/{id}`
+  - Deletes a specific ticket by its ID.
+
+## Web Routes
+
+### Pages
+- **Home Page**
+  - **GET** `/kino`
+  - Displays the main homepage of the cinema booking site.
+
+- **Ticket Editing Page**
+  - **GET** `/ticket/endre`
+  - Page to modify an existing ticket.
+
+- **Ticket Purchase Page**
+  - **GET** `/ticket/kjop`
+  - Allows users to purchase new tickets.
+
+
+
 
 
 
