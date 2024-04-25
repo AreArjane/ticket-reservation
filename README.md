@@ -42,7 +42,7 @@ This system allows users to browse, book, and manage cinema tickets through a we
 ## API Endpoints
 
 ### Ticket Information
-####localhost:8080
+### localhost:8080
 - **List All Tickets**
   - **GET** `/api/billetter/alle`
   - Retrieves a list of all booked tickets.
