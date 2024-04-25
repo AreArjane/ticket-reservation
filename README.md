@@ -1,4 +1,4 @@
-# ticket-reservation
+
 # Cinema Ticket Reservation System
 
 ## Project Overview
