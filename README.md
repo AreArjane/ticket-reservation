@@ -32,4 +32,4 @@ This project is ticket reservation form, created with H2-database with CRUD feat
 #### Backend Setup
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/cinema-ticket-system.git
+   git clone https://github.com/yourusername/cinema-ticket-system.git](https://github.com/AreArjane/ticket-reservation.git
