@@ -2,7 +2,7 @@
 # Cinema Ticket Reservation System
 
 ## Project Overview
-This project is a web-based cinema ticket reservation system that allows users to select and book tickets for various movies. It features a user-friendly interface for browsing movies, selecting seats, and handling payments.
+This project is ticket reservation form, created with H2-database with CRUD feature.
 
 ## Features
 - Welcome page
