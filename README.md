@@ -13,26 +13,6 @@ This project is ticket reservation form, created with H2-database with CRUD feat
 - Backend: Spring Boot, Java
 - Database: H2-database SQL
 
-## Getting Started
-
-### Prerequisites
-- Java 11 or higher
-- Maven 3.6 or higher
-
-### Dependencies
-- spring-boot-devtools
--  spring-boot-starter-data-jdbc
--  spring-boot-starter-data-jpa
--   spring-boot-starter-web
--    spring-boot-devtools
-- spring-boot-starter-thymeleaf
--  spring-boot-starter-test
-### Installation
-
-#### Backend Setup
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/cinema-ticket-system.git](https://github.com/AreArjane/ticket-reservation.git
 
 # Cinema Ticket Reservation System
 
@@ -92,7 +72,21 @@ This system allows users to browse, book, and manage cinema tickets through a we
   - Allows users to purchase new tickets.
 
 
+## Getting Started
 
+### Prerequisites
+- Java 11 or higher
+- Maven 3.6 or higher
+
+
+### Installation
+
+#### Backend Setup
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/cinema-ticket-system.git](https://github.com/AreArjane/ticket-reservation.git
+
+   
 ## Dependency of the Project in pom.xml using Maven
 
 
