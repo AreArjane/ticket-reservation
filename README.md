@@ -84,7 +84,7 @@ This system allows users to browse, book, and manage cinema tickets through a we
 #### Backend Setup
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/cinema-ticket-system.git](https://github.com/AreArjane/ticket-reservation.git
+   git clone https://github.com/AreArjane/ticket-reservation.git
 
    
 ## Dependency of the Project in pom.xml using Maven
