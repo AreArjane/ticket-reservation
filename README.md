@@ -93,7 +93,7 @@ This system allows users to browse, book, and manage cinema tickets through a we
 
 
 
-
+## Dependency of the Project in pom.xml using Maven
 
 
 ```xml
