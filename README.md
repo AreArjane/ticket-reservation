@@ -34,7 +34,7 @@ This project is ticket reservation form, created with H2-database with CRUD feat
    ```bash
    git clone https://github.com/yourusername/cinema-ticket-system.git](https://github.com/AreArjane/ticket-reservation.git
 
-   /cinema-ticket-system
+/cinema-ticket-system
 |-- /src
 |   |-- /main
 |   |   |-- /java
@@ -51,6 +51,7 @@ This project is ticket reservation form, created with H2-database with CRUD feat
 |   |-- /public
 |-- pom.xml
 |-- README.md
+
 
 
 ```xml
