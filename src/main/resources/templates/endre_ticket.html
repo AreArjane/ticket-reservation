@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Endre Kinobiletter</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="/script.js" defer></script>
+</head>
+<body>
+<div class="container mt-5">
+    <h2 class="mb-4">Endre Kinobiletter</h2>
+    <form class="update-form" id="B-form">
+        <div class="form-row">
+            <div class="form-group col-md-6">
+                <label for="filmSet">Velg film</label>
+                <select id="filmSet" name="velg film her" class="form-control"></select>
+                <div id="err-film" class="invalid-feedback"></div>
+            </div>
+            <div class="form-group col-md-6">
+                <label for="antall">Antall</label>
+                <input type="number" id="antall" name="antall" class="form-control" placeholder="Antall Billeter">
+                <span class="error-messages text-danger" id="err-antall"></span>
+            </div>
+        </div>
+        <div class="form-row">
+            <div class="form-group col-md-6">
+                <label for="fornavn">Fornavn</label>
+                <input type="text" id="fornavn" name="fornavn" class="form-control" placeholder="Fornavn eks: Ole">
+                <span class="error-messages text-danger" id="err-fornavn"></span>
+            </div>
+            <div class="form-group col-md-6">
+                <label for="etternavn">Etternavn</label>
+                <input type="text" id="etternavn" name="etternavn" class="form-control" placeholder="Etternavn eks: Rasmus">
+                <span class="error-messages text-danger" id="err-etternavn"></span>
+            </div>
+        </div>
+        <div class="form-row">
+            <div class="form-group col-md-6">
+                <label for="tlf">Telefonnr</label>
+                <input type="text" id="tlf" class="form-control" placeholder="004712345678">
+                <small id="telefonHelp" class="form-text text-muted">Skriv landkode eks: 0047 eller +47</small>
+                <span class="error-messages text-danger" id="err-telefon"></span>
+            </div>
+            <div class="form-group col-md-6">
+                <label for="epost">Epost</label>
+                <input type="email" id="epost" class="form-control" placeholder="example@example.com">
+                <small id="emailHelp" class="form-text text-muted">Følgene ender kun med: .no .com .co .net</small>
+                <span class="error-messages text-danger" id="err-email"></span>
+            </div>
+        </div>
+        <div class="form-group col-md-6">
+            <label for="id">ID</label>
+            <input type="text" id="id" class="form-control" placeholder="004712345678">
+
+        </div>
+        <div class="form-row">
+            <div class="col-md-12 text-center">
+                <button type="submit" id="updattt" class="btn btn-success">Bekrefte Endring</button>
+            </div>
+        </div>
+    </form>
+    <div class="row mt-4">
+        <div class="col-md-6">
+            <button type="button" id="bakk-endre" class="btn btn-primary">Gå Bak</button>
+        </div>
+        <div class="col-md-6 text-right">
+            <button type="button" id="reset-form" class="btn btn-secondary">Reset Form</button>
+        </div>
+    </div>
+</div>
+</body>
+</html>
