@@ -86,6 +86,9 @@ This system allows users to browse, book, and manage cinema tickets through a we
    ```bash
    git clone https://github.com/AreArjane/ticket-reservation.git
 
+   show video explaination : 
+   https://youtu.be/KkBntveXAjw
+
    
 ## Dependency of the Project in pom.xml using Maven
 
