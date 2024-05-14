@@ -1,6 +1,6 @@
 
 # Cinema Ticket Reservation System
-
+[![Watch the video](https://img.youtube.com/vi/KkBntveXAjw/hqdefault.jpg)](https://youtu.be/KkBntveXAjw)
 ## Project Overview
 This project is ticket reservation form, created with H2-database with CRUD feature.
 
